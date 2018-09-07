@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title>优先级</title>
+			<style>
+				#div1{
+					color:blue;
+				}
+				div{
+					color:red;
+					font-size:30px !important;
+				}
+				.box{
+					color:green;
+					font-size:12px;
+					color:purple !important;
+
+				}/*标签选择器<类选择器<id选择器<行内样式<!important*/
+			</style>
+		</head>
+		<body>
+			<div class="box" id="div1" style="color:orange">
+				A:123456789<br><br>
+				B:987654321<br><br>
+				C:147258369<br><br>
+			</div>
+		</body>
+	</html>

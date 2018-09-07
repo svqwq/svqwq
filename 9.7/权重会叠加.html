@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title>权重会叠加</title>
+			<style>
+				ul #li-1{
+					color:darkblue;
+				}
+				#li-1{
+					color:green;
+				}
+				.ul-1 li{
+					color:orange
+				}
+				ul li{
+					color:blue; font-size:30px
+				}
+				li{
+					color:red; font-size:12px;
+				}
+			</style>
+		</head>
+		<body>
+			<ul class="ul-1">
+				<li id="li-1">123456789</li>
+				<li>987654321</li>
+			</ul>
+		</body>
+	</html>

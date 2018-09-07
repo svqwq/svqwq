@@ -1,0 +1,6 @@
+﻿@charset "utf-8";  /*设置字符编码。*/
+@import url(04.css);
+body{
+	color:#333;
+	line-height:30px;
+}
